@@ -1,0 +1,31 @@
+/*font*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu li a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+/*this handles the hover color effects for the nav*/
+.menu li a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+
