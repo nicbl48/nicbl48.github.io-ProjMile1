@@ -28,4 +28,16 @@ section {
     background-color: white;
 }
 
+.correct {
+    color: green;
+}
 
+.wrong {
+    color: red;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
