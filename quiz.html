@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="quiz.js"></script>
+</head>
+
+<body>
+
+<nav>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="topic1.html">Topic 1</a></li>
+        <li><a href="topic2.html">Topic 2</a></li>
+        <li><a href="concepts.html">Key Concepts</a></li>
+        <li><a href="references.html">References</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+    </ul>
+</nav>
+
+<h1>Self-Assessment Quiz</h1>
+
+<form id="quizForm">
+
+    <!-- fill in the blank question-->
+    <p>1. What is the foundational code for websites?</p>
+    <input type="text" id="q1">
+
+    <!-- multiple choice questions-->
+    <p>2. What year did Tim Berners-Lee create HTML?</p>
+    <input type="radio" name="q2" value="a"> 1992<br>
+    <input type="radio" name="q2" value="b"> 1991<br>
+    <input type="radio" name="q2" value="c"> 1990<br>
+
+    <p>3. What letter is used for paragraph?</p>
+    <input type="radio" name="q3" value="a"> p<br>
+    <input type="radio" name="q3" value="b"> h<br>
+    <input type="radio" name="q3" value="c"> l<br>
+
+    <p>4. What group did Tim Berners-Lee work for?</p>
+    <input type="radio" name="q4" value="a"> W3C<br>
+    <input type="radio" name="q4" value="b"> NASA<br>
+    <input type="radio" name="q4" value="c"> CERN<br>
+
+    <!-- mutli select -->
+    <p>5. Which are HTML components?</p>
+    <input type="checkbox" name="q5" value="a"> p<br>
+    <input type="checkbox" name="q5" value="b"> img<br>
+    <input type="checkbox" name="q5" value="c"> peanut butter<br>
+
+    <br><br>
+
+    <button type="button" onclick="gradeQuiz()">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+<div id="results"></div>
+
+</body>
+</html>
